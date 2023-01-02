@@ -1,7 +1,7 @@
 import "./App.css";
 import {
   Route,
-  createBrowserRouter,
+  createHashRouter,
   createRoutesFromElements,
 } from "react-router-dom";
 import UserLayout from "./components/layouts/UserLayout";
@@ -12,7 +12,7 @@ import FinishedGames from "./App/finishedGamesScreen/FinishedGames";
 import AuthLayout from "./components/layouts/AuthLayout";
 import LoginScreen from "./App/loginScreen/LoginScreen";
 
-export const router = createBrowserRouter(
+export const router = createHashRouter(
   createRoutesFromElements(
     <>
       <Route element={<AuthLayout />}>
