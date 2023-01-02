@@ -1,14 +1,18 @@
 {
   "files": {
-    "main.css": "/filtermygames/static/css/main.350159a4.css",
-    "main.js": "/filtermygames/static/js/main.f40fef86.js",
+    "main.css": "/filtermygames/static/css/main.246b15e9.css",
+    "main.js": "/filtermygames/static/js/main.66ec03af.js",
     "static/media/mainBg.png": "/filtermygames/static/media/mainBg.4e31440101bb3ac22001.png",
+    "static/media/user.png": "/filtermygames/static/media/user.05d0404ad8a0ab5bdefa.png",
+    "static/media/play.png": "/filtermygames/static/media/play.296f4bbf062ce1bdcf60.png",
+    "static/media/finish.png": "/filtermygames/static/media/finish.d922d5f9c3e23375cf27.png",
+    "static/media/want.png": "/filtermygames/static/media/want.b443f723b814c8e4e61c.png",
     "index.html": "/filtermygames/index.html",
-    "main.350159a4.css.map": "/filtermygames/static/css/main.350159a4.css.map",
-    "main.f40fef86.js.map": "/filtermygames/static/js/main.f40fef86.js.map"
+    "main.246b15e9.css.map": "/filtermygames/static/css/main.246b15e9.css.map",
+    "main.66ec03af.js.map": "/filtermygames/static/js/main.66ec03af.js.map"
   },
   "entrypoints": [
-    "static/css/main.350159a4.css",
-    "static/js/main.f40fef86.js"
+    "static/css/main.246b15e9.css",
+    "static/js/main.66ec03af.js"
   ]
 }
