@@ -23,7 +23,6 @@ export default function LoginScreen() {
             width="60"
           />
           <img
-            class="	"
             src="https://seeklogo.com/images/G/gog-galaxy-logo-DC8A483B28-seeklogo.com.png"
             alt="gog"
             width="50"
