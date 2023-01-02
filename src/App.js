@@ -20,9 +20,9 @@ export const router = createHashRouter(
       </Route>
 
       <Route path="/" element={<UserLayout />}>
-        <Route path="/wantPlay" element={<WantPlayScreen />} />
-        <Route path="/playingNow" element={<PlayingNowScreen />} />
-        <Route path="/finishedGames" element={<FinishedGames />} />
+        <Route path="/filtermygames/wantPlay" element={<WantPlayScreen />} />
+        <Route path="/filtermygames/playingNow" element={<PlayingNowScreen />} />
+        <Route path="/filtermygames/finishedGames" element={<FinishedGames />} />
         <Route path="/" element={<HomeScreen />} />
       </Route>
     </>
