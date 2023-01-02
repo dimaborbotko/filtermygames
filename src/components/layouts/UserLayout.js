@@ -18,7 +18,7 @@ export default function UserLayout() {
 
   return (
     <div
-      class="flex bg-main-img bg-no-repeat bg-center bg-auto"
+      class="flex bg-main-img bg-no-repeat bg-center bg-cover bg-scroll"
       style={{
         width: "100vw",
         height: "100vh",
