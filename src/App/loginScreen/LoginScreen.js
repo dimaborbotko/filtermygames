@@ -4,7 +4,7 @@ import "../../assets/steamShop.png";
 export default function LoginScreen() {
   return (
     <div
-      class="z-0 bg-main-img bg-fixed bg-no-repeat bg-center bg-cover grid content-center px-5"
+      class="z-0 bg-main-img bg-fixed bg-no-repeat bg-center bg-auto grid content-center px-5"
       style={{
         width: "100vw",
         height: "100vh",
