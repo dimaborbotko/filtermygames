@@ -87,7 +87,7 @@ export default function UserLayout() {
           </li>
         </ul>
       </div>
-      <div className="flex container max-w-screen-2xl shrink mx-auto px-4 py-4 bg-main-white my-4 shadow-main-box rounded-md">
+      <div className="flex container max-w-screen-2xl shrink mx-auto px-4 py-4 bg-main-white my-4 shadow-main-box rounded-md relative">
         <Outlet />
       </div>
     </div>
