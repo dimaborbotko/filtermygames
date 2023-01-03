@@ -4,7 +4,7 @@ import home from "../../assets/home.png";
 import want from "../../assets/want.png";
 import play from "../../assets/play.png";
 import finish from "../../assets/finish.png";
-import user from "../../assets/user.png";
+import UserDropDown from "../userDropdown/UserDropDown";
 
 export default function UserLayout() {
   const activePage = useLocation();
@@ -24,7 +24,7 @@ export default function UserLayout() {
         height: "100vh",
       }}
     >
-      <div class="bg-[#f8fafc] rounded-full shadow-main-box px-3 py-3 mx-4 my-4 justify-end self-center">
+      <div class="bg-main-white rounded-full shadow-main-box px-3 py-3 mx-4 my-4 justify-end self-center">
         <ul>
           <li>
             <Link to="/" class={`${sideBarElStyle} mt-5 `}>
@@ -83,8 +83,7 @@ export default function UserLayout() {
             </Link>
           </li>
           <li class="bg-[#a6dfb5] shadow-inner-bar py-3 rounded-full flex flex-col items-center">
-            <img class="mt-1" src={user} alt="finish" width="45" />
-            <p class="text-black font-semibold">User</p>
+            <UserDropDown />
           </li>
         </ul>
       </div>

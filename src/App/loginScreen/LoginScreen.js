@@ -10,7 +10,7 @@ export default function LoginScreen() {
         height: "100vh",
       }}
     >
-      <div class="z-50 bg-[#f8fafc] px-5 py-5 rounded-md mx-auto ">
+      <div class="z-50 bg-main-white px-5 py-5 rounded-md mx-auto ">
         <h1 class="text-2xl">Log in to continue</h1>
         <p class="text-sm font-thin">
           Log in by using one of the specified methods

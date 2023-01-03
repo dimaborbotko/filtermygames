@@ -7,6 +7,9 @@ module.exports = {
       backgroundImage: {
         "main-img": "url('./assets/mainBg.png')",
       },
+      backgroundColor: {
+        "main-white": "#f8fafc",
+      },
       boxShadow: {
         "main-box": "0 2px 10px -1px rgb(0 0 0 / 0.40)",
         "inner-bar": "inset 0 -2px 2px 2px rgb(0 0 0 / 0.25)",
