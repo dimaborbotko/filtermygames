@@ -1,4 +1,4 @@
-import React  from "react";
+import React from "react";
 import { Link, Navigate, Outlet, useLocation } from "react-router-dom";
 import home from "../../assets/home.png";
 import want from "../../assets/want.png";
@@ -18,13 +18,13 @@ export default function UserLayout() {
 
   return (
     <div
-      class="flex bg-main-img bg-no-repeat bg-center bg-cover bg-scroll"
+      class="flex px-4 bg-main-img bg-no-repeat bg-center bg-cover bg-scroll"
       style={{
         width: "100vw",
         height: "100vh",
       }}
     >
-      <div class="bg-main-white rounded-full shadow-main-box px-3 py-3 mx-4 my-4 justify-end self-center">
+      <div class="flex shrink-0 bg-main-white rounded-full mr-4 shadow-main-box px-3 py-3 my-4 self-center">
         <ul>
           <li>
             <Link to="/" class={`${sideBarElStyle} mt-5 `}>
@@ -50,7 +50,7 @@ export default function UserLayout() {
                     : "text-black font-semibold"
                 }
               >
-                Want to play
+                Will play
               </p>
             </Link>
           </li>
@@ -87,8 +87,9 @@ export default function UserLayout() {
           </li>
         </ul>
       </div>
-
-      <Outlet />
+      <div className="flex container max-w-screen-2xl shrink mx-auto px-4 py-4 bg-main-white my-4 shadow-main-box rounded-md">
+        <Outlet />
+      </div>
     </div>
   );
 }
