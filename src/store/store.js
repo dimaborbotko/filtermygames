@@ -1,8 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
 import requestsReducer from "./requestsReducer/RequestsSlice";
+import fakeReducer from "./fakeReducer/FakeSlice";
 
-export const store = configureStore({
+export default configureStore({
   reducer: {
     requests: requestsReducer,
+    fake: fakeReducer,
   },
 });
