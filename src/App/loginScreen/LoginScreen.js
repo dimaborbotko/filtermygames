@@ -4,20 +4,20 @@ import "../../assets/steamShop.png";
 export default function LoginScreen() {
   return (
     <div
-      class="z-0 bg-main-img bg-scroll bg-no-repeat bg-center bg-cover grid content-center px-5"
+      className="z-0 bg-main-img bg-scroll bg-no-repeat bg-center bg-cover grid content-center px-5"
       style={{
         width: "100vw",
         height: "100vh",
       }}
     >
-      <div class="z-50 bg-main-white px-5 py-5 rounded-md mx-auto ">
-        <h1 class="text-2xl">Log in to continue</h1>
-        <p class="text-sm font-thin">
+      <div className="z-50 bg-main-white px-5 py-5 rounded-md mx-auto ">
+        <h1 className="text-2xl">Log in to continue</h1>
+        <p className="text-sm font-thin">
           Log in by using one of the specified methods
         </p>
-        <div class="flex mt-4">
+        <div className="flex mt-4">
           <img
-            class="mr-5"
+            className="mr-5"
             src="https://cdn-icons-png.flaticon.com/512/3/3782.png"
             alt="steam"
             width="60"

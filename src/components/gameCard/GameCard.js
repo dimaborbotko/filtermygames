@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import tempGameImg from "../../assets/tempGameImg.jpeg";
 import { useDispatch, useSelector } from "react-redux";
 import {
   addToFinished,
@@ -7,7 +6,7 @@ import {
   addToWillPlay,
 } from "../../store/fakeReducer/FakeSlice";
 
-export default function GameCard({ item, name, label }) {
+export default function GameCard({ item, name, poster, }) {
   const { fakeStatus, willPlay, inProgress, finished } = useSelector(
     (state) => state.fake
   );
@@ -43,11 +42,12 @@ export default function GameCard({ item, name, label }) {
     <div className="rounded-full mx-3 my-3">
       <img
         className="rounded-md"
-        src={tempGameImg}
+        src={poster}
         alt="game"
         style={{
           objectFit: "cover",
-          height: "180px",
+          height: "auto",
+          width: "100%",
         }}
       />
 

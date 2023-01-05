@@ -1,10 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
-import requestsReducer from "./requestsReducer/RequestsSlice";
+import steamReducer from "./requestsReducer/steamSlice";
 import fakeReducer from "./fakeReducer/FakeSlice";
 
 export default configureStore({
   reducer: {
-    requests: requestsReducer,
+    requests: steamReducer,
     fake: fakeReducer,
   },
 });

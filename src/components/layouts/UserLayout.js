@@ -18,19 +18,19 @@ export default function UserLayout() {
 
   return (
     <div
-      class="flex px-4 bg-main-img bg-no-repeat bg-center bg-cover bg-scroll"
+      className="flex px-4 bg-main-img bg-no-repeat bg-center bg-cover bg-scroll"
       style={{
         width: "100vw",
         height: "100vh",
       }}
     >
-      <div class="flex shrink-0 bg-main-white rounded-full mr-4 shadow-main-box px-3 py-3 my-4 self-center">
+      <div className="flex shrink-0 bg-main-white rounded-full mr-4 shadow-main-box px-3 py-3 my-4 self-center">
         <ul>
           <li>
-            <Link to="/" class={`${sideBarElStyle} mt-5 `}>
+            <Link to="/" className={`${sideBarElStyle} mt-5 `}>
               <img src={home} alt="home" width="45" />
               <p
-                class={
+                className={
                   activePage.pathname === "/"
                     ? "text-active-link font-semibold"
                     : "text-black font-semibold"
@@ -41,10 +41,10 @@ export default function UserLayout() {
             </Link>
           </li>
           <li>
-            <Link to="/filtermygames/wantPlay" class={`${sideBarElStyle}	`}>
+            <Link to="/filtermygames/wantPlay" className={`${sideBarElStyle}	`}>
               <img src={want} alt="wantPlay" width="45" />
               <p
-                class={
+                className={
                   activePage.pathname === "/filtermygames/wantPlay"
                     ? "text-active-link font-semibold"
                     : "text-black font-semibold"
@@ -55,10 +55,10 @@ export default function UserLayout() {
             </Link>
           </li>
           <li>
-            <Link to="/filtermygames/playingNow" class={`${sideBarElStyle}`}>
+            <Link to="/filtermygames/playingNow" className={`${sideBarElStyle}`}>
               <img src={play} alt="playingNow" width="45" />
               <p
-                class={
+                className={
                   activePage.pathname === "/filtermygames/playingNow"
                     ? "text-active-link font-semibold"
                     : "text-black font-semibold"
@@ -69,10 +69,10 @@ export default function UserLayout() {
             </Link>
           </li>
           <li>
-            <Link to="/filtermygames/finishedGames" class={`${sideBarElStyle}`}>
+            <Link to="/filtermygames/finishedGames" className={`${sideBarElStyle}`}>
               <img src={finish} alt="finish" width="45" />
               <p
-                class={
+                className={
                   activePage.pathname === "/filtermygames/finishedGames"
                     ? "text-active-link font-semibold"
                     : "text-black font-semibold"
@@ -82,7 +82,7 @@ export default function UserLayout() {
               </p>
             </Link>
           </li>
-          <li class="bg-[#a6dfb5] shadow-inner-bar py-3 rounded-full flex flex-col items-center">
+          <li className="bg-[#a6dfb5] shadow-inner-bar py-3 rounded-full flex flex-col items-center">
             <UserDropDown />
           </li>
         </ul>

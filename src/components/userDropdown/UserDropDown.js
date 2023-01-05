@@ -7,8 +7,8 @@ export default function UserDropDown() {
     <Menu as="div" className="relative inline-block text-left">
       <div>
         <Menu.Button>
-          <img class="mt-1" src={user} alt="finish" width="45" />
-          <p class="text-black font-semibold">User</p>
+          <img className="mt-1" src={user} alt="finish" width="45" />
+          <p className="text-black font-semibold">User</p>
         </Menu.Button>
       </div>
 
